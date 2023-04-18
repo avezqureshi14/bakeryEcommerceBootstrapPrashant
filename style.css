@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: unset;
+  list-style: none;
+  font-family: 'Poppins' !important;
+}
+
+.bakeryContainer{
+    height: 100vh;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+.carousel-caption{
+    margin-bottom: 5rem;
+}
